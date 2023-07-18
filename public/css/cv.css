@@ -1,0 +1,46 @@
+.cvContent{
+	max-width: 800px;
+	background: #f7f7f7;
+    padding: 10px;
+}
+.cvImg img {
+    width: 185px;
+    height: 185px;
+    border-radius: 100%;
+    border: 2px solid greenyellow;
+}
+
+.row.cvRow {
+    justify-content: center;
+    align-items: center;
+    margin-top: 34px;
+}
+
+.cvPage {
+}
+
+.container.cvContent {
+    min-width: 800px;
+}
+
+.row.cvRow {}
+
+.cvName h2 {font-family: math;color: blue;}
+
+.cvName h4 {font-family: emoji;}
+
+.cvTitle ul li {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+h4,h3{
+    font-family: auto;
+}
+
+hr {
+    border: 1px solid #998a8a;
+}

@@ -1,0 +1,824 @@
+/*welcome page css start form here*/
+.row.welcomeRow {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.welcomePageDiv {
+    background: gainsboro;
+    min-height: 625px;
+}
+
+/*menu page css start form here*/
+
+canvas.particles-js-canvas-el {
+    margin-top: -378px;
+}
+img#HomeNavberImg{
+    margin-top: 4px;
+}
+h4#AdminName {
+    font-family: auto;
+    color: white;
+}
+.nothingImg {
+    text-align: center;
+    font-family: auto;
+    color: white;
+    margin-top: 143px;
+}
+.loader {
+    font-size: 34px;
+    color: white;
+    text-align: center;
+    font-family: auto;
+    margin-top: 143px;
+}
+.spinner-border-sm {
+    --mdb-spinner-width: 28px;
+    --mdb-spinner-height: 28px;
+    --mdb-spinner-vertical-align: -2px;
+    --mdb-spinner-border-width: 2px;
+    border-right-color: #b7ff09e3;
+    color: #f3f9ff!important;
+}
+/*menu page css end form here*/
+
+/*welcome page css end form here*/
+div.navImgDiv img{width: 175px;height: 175px;}
+div.leftCollmun {background: #787878;}
+
+div.navbar-expand-lg {padding: 18px 0px;}
+
+div.navImgDiv img{border-radius: 100%;border: 4px solid #aeffa8;}
+
+div#navbarNavAltMarkup{
+    border-top: 1px solid #8d8d8d;
+    border-bottom: 1px solid #878787;
+}
+
+a.nav-link {
+    font-size: 21px;
+    font-weight: bold;
+    color: #4aff0e;
+    font-family: emoji;
+    text-shadow: 4px 2px 2px #5a425a;
+}
+
+.navFooterSection {
+    text-align: center;
+}
+
+.navFooterSection p {
+    font-family: cursive;
+    color: #41dcff;
+    text-shadow: 1px 2px 2px #665959;
+    padding: 10px;
+}
+
+.hoomRoot {
+    background-color: black;
+    min-height: 100vh;
+     opacity: 0.8;
+}
+ul.navbarUl{
+    width: 100%;
+}
+ul.navbarUl li {
+    list-style-type: none;
+    cursor: pointer;
+    margin-bottom: 3px;
+}
+ul.navbarUl li:hover{
+   position: relative;
+    animation-name: li;
+    animation-duration: 0.5s;
+     cursor: pointer;
+     background: #b9b9cd;
+    margin-bottom: 3px;
+}
+
+@keyframes li{
+    0%{
+        width: 0%;
+
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+
+/* home page css start form here */
+div.HomePageDiv {padding-top: 70px;}
+
+div.homeHeadingRow {
+    text-align: center;
+    animation-name: homePageDiv;
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+div.homeHeadingRow h1 {font-size: 70px;font-family: inherit;color: #f6fff4;}
+span.headingSpan {color: #1eff39;}
+
+div.homeTitleRow p {text-align: center;color: white;font-weight: 400;font-family: inherit;}
+div.homeTitleRow{
+     text-align: center;
+    animation-name: homePageDiv;
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+div.homeSocialRow ul {display: inline-flex;}
+
+div.homeSocialRow {
+     text-align: center;
+    animation-name: homePageDiv;
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+
+div.homeSocialRow ul li { list-style-type: none;font-size: 38px;margin: 9px;}
+
+div.homeSocialRow ul li a i { color: #6efd5d; text-shadow: 4px 2px 6px #a1a1a1;}
+
+div.homeCvDownLoadRow {
+     text-align: center;
+    animation-name: homePageDiv;
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+div.proggram h4 {background: #605656;width: 215px;margin: auto; border-radius: 10px;
+    font-size: 25px;padding: 5px;color: white;}
+    button.btn.btnHome {
+    background: #b9b1b1;
+}
+
+button.btn.btnHome a {
+    font-size: 22px;
+    padding: 7px;
+    color: #f5f3f7;
+    font-weight: bold;
+}
+
+button.btn.btnHome a i {
+    margin: 6px;
+    font-size: 24px;
+    color: #fc44ff;
+    font-weight: bolder;
+}
+div.homeSpecialRow {
+    margin-top: 10px;text-align: center;
+     animation-name: homePageDiv;
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+@keyframes homePageDiv{
+      0%{
+       opacity: 0;
+        transform: translate3d(0px, 100%, 10px);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+/* home page css end form here */
+/* about page css start form here */
+div.aboutRoot {
+    background: #484848;
+}
+div.aboutContentDiv {
+    padding-top: 89px;
+}
+
+div.aboutTitle {
+    padding: 14px;
+}
+
+div.aboutTitle h2 {
+    color: #1bff00;
+    font-weight: bolder;
+    font-family: emoji;
+}
+div.aboutTitle{
+    animation-name: about;
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+
+div.aboutHeadingRow h2 {
+    color: white;
+    font-family: none;
+}
+div.aboutHeadingRow{
+    animation-name: about;
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+div.aboutHeadingTitleDiv p {
+    color: white;
+    font-weight: 300;
+}
+div.aboutHeadingTitleDiv{
+    animation-name: about;
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+
+div.addressDiv ul li {
+    list-style-type: none;
+    padding: 6px;
+    margin: 0px;
+    font-weight: bold;
+    border-bottom: 1px solid #5feb26;
+    color: white;
+    font-family: auto;
+    
+}
+div.addressDiv ul li{
+    animation-name: about;
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+
+div.doingTitle {
+    padding: 10px;
+    animation-name: about;
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+div.doingTitle h3 {
+    font-weight: bolder;
+    color: white;
+    text-shadow: 3px 2px 1px #a78e8e;
+}
+
+div.aboutLogutitleDiv {
+    display: flex;
+}
+
+div.deignImgDIv img {
+    width: 47px;
+    margin-right: 11px;
+     animation-name: about;
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+div.DoingWorkTitleDiv h4 {
+    color: #1bff00;
+    font-family: emoji;
+    font-weight: bold;
+    text-shadow: 6px 3px 0px black;
+     animation-name: about;
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+
+div.DoingWorkTitleDiv p {
+    color: white;
+    font-weight: 400;
+     animation-name: about;
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+
+/* about page css end form here */
+/* resume page css start form here */
+div.resumeRoot {background: darkgray;min-height:}
+div.resumePageDiv {padding-top: 80px;}
+
+div.resumeTitle h1 {font-family: auto;color: chartreuse;font-weight: bold;
+    text-shadow: 2px 2px 2px violet;}
+div.educationTitle { display: flex;}
+
+i.fas.fa-graduation-cap {
+    font-size: 34px;
+    font-weight: bold;
+    color: greenyellow;
+    text-shadow: 2px 2px 2px #6c695f;
+    margin-right: 7px;
+}
+
+div.educationTitle h3 {
+    font-family: auto;
+    color: #ceff38;
+    font-weight: bold;
+}
+
+div.col-3.ColYear h3 {
+    color: white;
+    font-family: auto;
+    position: relative;
+    margin-left: 10px;
+ }
+ div.col-3.ColYear h3 {
+    color: white;
+    font-family: auto;
+    margin-left: 10px;
+    position: relative;
+    text-shadow: 2px 2px 2px #4a3c3c;
+    font-weight: bold;
+}
+
+div.educationRow.row {
+    position: relative;
+    padding: 10px;
+}
+
+div.examheadTitle h2 {
+    color: white;
+    font-family: auto;
+    position: relative;
+}
+
+
+/* resume page css end form here */
+
+/* potfulio page css start form here */
+div.potfulioImgDiv img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+     
+}
+
+div.potfulioroot {
+    background: #b5b4b4;
+}
+
+div.potfulioTitle {
+    padding: 10px;
+}
+
+div.potfulioTitle h2 {
+    color: #81ff21;
+    font-family: auto;
+    text-shadow: 4px 4px 3px #af9292;
+    
+}
+button.potfuliobtn {
+    background: unset;
+    border: 2px solid #9cff15;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    animation-name: potfulio;
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+
+button.potfuliobtn:hover {
+    background: #0d4dff;
+    border: 2px solid #9cff15;
+    border-radius: 10px;
+}
+
+/* potfulio page css end form here */
+/* Blog Page css start form here */
+.BlogColImgDiv img {
+    width: 100%;
+    height: 300px;
+
+}
+.BlogRoot {
+    background: gray;
+}
+.BlogPageDiv {
+    padding-top: 80px;
+}
+
+.BlogTitleRow {
+    padding: 10px;
+    color: #29ff0f;
+    font-family: auto;
+}
+
+.BlogImgTitle h3 {
+    font-family: auto;
+}
+
+/* Blog Page css end form here */
+/* contact page css start form here */
+ .contactRoot {
+    background: gainsboro;
+    min-height: 100vh;
+}
+
+.contactPageDiv {
+    padding-top: 74px;
+}
+
+.contacTitle h1 {
+    font-family: auto;
+    color: #2700ff;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px #8d8888;
+}
+
+.addressTitle h3 {
+    font-family: 'Roboto';
+    padding: 5px;
+    color: #9393a9;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.contactAddress {
+    padding-top: 20px;
+}
+
+li.contactItem {
+    list-style-type: none;
+}
+i.fa.fa-mobile-phone {
+    margin-right: 10px;
+    font-size: 22px;
+    color: #c000ff;
+}
+
+i.fa.fa-envelope {
+    margin-right: 10px;
+    font-size: 22px;
+    color: #c000ff;
+    margin-top: 9px;
+}
+
+p.info {
+    font-style: italic;
+}
+
+.contactSendTile h2 {
+    font-family: 'Roboto';
+    padding: 5px;
+    color: #9393a9;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+label {
+    font-weight: bold;
+    color: #0033ef;
+}
+
+button.sendTitle.form-control {
+    font-size: 22px;
+    font-weight: bold;
+    background: #bec7bd;
+    border: 2px solid #afafaf;
+    color: #edf3ff;
+}
+
+button.sendTitle.form-control:hover {
+    background: #2cf71f;
+    transition: all 0.5s cubic-bezier(0.35, 0.65, 0.98, 0.99);
+}
+
+button.sendTitle{
+     animation-name:contactSend;
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+
+
+div.addressTitle {
+    animation-name:contactSend;
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+@keyframes contactSend{
+      0%{
+       opacity: 0;
+        transform: translate3d(0px, 100%, 10px);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+/* contact page css end form here */
+
+
+/*login page css start form here*/
+.loginFormPage {
+    width: 400px;
+    margin: 157px auto;
+}
+
+.adminLoginTitl h3 {
+    font-family: auto;
+    text-align: center;
+    color: #27ff00;
+}
+
+button#loginButtonId {
+    width: 100%;
+    margin-top: 10px;
+    font-family: fantasy;
+    font-size: 27px;
+    border: 2px solid green;
+    border-radius: 10px;
+    color: #6ca7db;
+    background: #dbb4cf;
+}
+
+.row.loginRow {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.loginPageDiv {
+    background-image: url('../img/alaminbanner.jpg');
+    background-position: center;
+    background-size: 100% 108%;
+    background-repeat: no-repeat;
+    height: 625px;
+}
+/*login page css end form here*/
+/*pagination page css start form here*/
+div.BlogRoot{
+    min-height: 100vh;
+}
+.page-link {
+    background: #cbcbcb;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 100%;
+    padding: 7px 12px;
+}
+.page-item.active .page-link {
+    background: #cbcbcb;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 100%;
+    padding: 7px 12px;
+}
+.page-item:first-child .page-link{
+    background: #cbcbcb;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 7px 12px;
+}
+
+/*skill page css start form here*/
+.skillPageDiv {
+    margin-top: 40px;
+}
+
+h1.skillheading {
+    font-family: auto;
+    color: #1dff4dc4;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #0f0a12;
+}
+.col-3.proggressCollumn {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+}
+
+div#proggressDiv {
+}
+
+text.circle-chart__percent {
+    font-family: fangsong;
+    font-weight: bold;
+}
+
+g.circle-chart__info {
+}
+
+text.circle-chart__subline {
+    font-size: 4px;
+    font-family: auto;
+}
+
+.circle-chart__background {
+    stroke: #d5ff1a;
+    stroke-width: 2;
+    fill: none;
+}
+.success-stroke {
+    stroke: #25ff96;
+}
+/*skill page css end form here*/
+
+/* media queris css start form here */
+@media(max-width:575px){
+  div.navImgDiv{
+    text-align: center;
+  }
+   div.leftCollmun{
+    padding-bottom: 10px;
+   }
+   div.navFooter{
+    text-align: center;
+   }
+
+   div.addressDiv{
+    padding: 0px
+   }
+  div.addressCol{
+      text-align: center;
+  }
+  div.aboutCol{
+      text-align: center;
+  }
+
+div.col-3.ColYear h3::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #34e931;
+    border-radius: 100%;
+    border: 2px solid #cfc9c9;
+    top: 13px;
+    left: -16px;
+}
+
+div.educationRow.row::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: #bbbbbb;
+    top: 26px;
+    left: 23px;
+}
+div.examheadTitle h2::before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 26px;
+    background: #c9c0c0;
+    left: -9px;
+    top: 7px;
+}
+
+div.ssceducationRow.row::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 272px;
+    background: #bbbbbb;
+    top: 26px;
+    left: 23px;
+}
+
+}
+@media(min-width:576px){
+  div.navImgDiv{
+    text-align: center;
+  }
+   div.leftCollmun{
+    padding-bottom: 10px;
+   }
+   div.navFooter{
+    text-align: center;
+   }
+
+
+   div.col-3.ColYear h3::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #34e931;
+    border-radius: 100%;
+    border: 2px solid #cfc9c9;
+    top: 13px;
+    left: -16px;
+}
+
+div.examheadTitle h2::before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 26px;
+    background: #c9c0c0;
+    left: -9px;
+    top: 7px;
+}
+
+div.educationRow.row::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: #bbbbbb;
+    top: 26px;
+    left: 23px;
+    }
+
+
+}
+
+@media(min-width:768px){
+
+}
+
+@media(min-width:992px){
+    nav.navbar-expand-lg.navbar-light {position: fixed;min-width: 20%;
+        min-height: 100%;}
+  div.Rootrow {min-width: 100%;display: flex;}
+  div.leftCollmun {min-width: 20%;}
+  div.navbar-expand-lg {text-align: center;padding: 18px 0px;}
+  div.navImgDiv {margin-bottom: 20px;}
+}
+
+@media(min-width:1200px){
+ nav.navbar-expand-lg.navbar-light {
+    position: fixed;
+    min-width: 20%;
+    min-height: 100%;
+}
+  div.Rootrow {min-width: 100%;display: flex;}
+  div.leftCollmun {min-width: 20%;}
+ div.rightCollumn{
+    width: 80%;
+    min-height: 625px;
+ }
+  div.addressCol{
+      text-align: transform
+  }
+div.col-3.ColYear h3::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #34e931;
+    border-radius: 100%;
+    border: 2px solid #cfc9c9;
+    top: 13px;
+    left: -16px;
+}
+
+div.educationRow.row::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: #bbbbbb;
+    top: 26px;
+    left: 23px;
+}
+div.examheadTitle h2::before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 26px;
+    background: #c9c0c0;
+    left: -9px;
+    top: 7px;
+}
+
+}

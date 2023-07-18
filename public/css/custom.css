@@ -1,0 +1,641 @@
+
+.profileNithing {
+    position: absolute;
+    right: -168px;
+    top: 6px;
+    font-family: auto;
+    color: #ff1800d1;
+    font-weight: bold;
+}
+
+.ProfileLoader {
+    position: absolute;
+    right: -73px;
+    font-weight: bold;
+    top: 6px;
+    font-family: auto;
+    color: #7d58c5;
+}
+
+/*admin header start end form here*/
+header {
+    background: gainsboro;
+    position: fixed;
+    width: 100%;
+    padding: 7px;
+    box-shadow: -3px 4px 4px 0px #c5c5c5;
+    z-index: 1;
+    height: 64px;
+}
+
+div#HeaderImgModal {width: 309px;margin-right: 10px;margin-top: 34px;}
+div#headerModalHeader {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+div#headerModalHeader img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.headerNavRow {
+    display: table-caption;
+}
+div.headerNavRow a {
+    font-size: 20px;
+    font-family: auto;
+    color: #8b8080;
+}
+div#HeaderModalBody {
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+div#headerModalContent{
+    background: #d9d9d9;
+}
+
+div.headerColRightSide a {
+    font-size: 28px;
+    font-family: auto;
+    margin-left: 26px;
+}
+div.userImg img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+div.userCol {
+    text-align: end;
+}
+
+div.userImg {
+    margin-right: 24px;
+}
+
+
+div.headerImgDiv {
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
+
+
+div.headerImgDiv h5 {
+    font-family: 'Roboto';
+    color: #727272;
+    text-shadow: 2px 2px 2px white;
+}
+
+a#adminProfileId,a#adminLogoutId{
+    text-decoration: none;
+}
+a#adminProfileId {
+    display: flex;
+}
+
+a#adminLogoutId {
+    display: flex;
+}
+
+i.fas.fa-user {
+    font-size: small;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+i.fa.fa-sign-out {font-size: small;margin-top: 5px;padding: 5px;}
+/*admin header css end form here*/
+
+ul.headerNavRow {
+    width: 337px;
+    margin-left: -48px;
+}
+
+li.modalProfileItem {
+    list-style-type: none;
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+li.modalProfileItem a {
+    font-size: 22px;
+}
+
+li.modalProfileItem:hover {
+    background: white;
+    border-left: 3px solid #1714ef;
+    transition: all 0.2s cubic-bezier(0.06, 0.85, 0.42, 0.94);
+}
+
+div.adminRow {
+    display: flex;
+    width: 100%;
+}
+
+div.RightSide {
+    background: black;
+    min-width: 20%;
+    margin-top: 66px;
+    min-height: 558px;
+}
+
+div.leftSide {
+    min-width: 80%;
+    margin-top: 68px;
+    background: #f1f1f1;
+}
+
+ul.siteBarNav {
+    min-height: 100%;
+    min-width: 20%;
+    position: fixed;
+}
+
+ul.siteBarNav li {
+    list-style-type: none;
+    padding: 5px 0px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+ul.siteBarNav li:hover {
+    background: whitesmoke;
+    color: red
+}
+
+ul.siteBarNav li:hover a {
+    text-decoration: none;
+    color: red;
+}
+
+ul.siteBarNav li:hover i {
+    color: red;
+}
+
+
+ul.siteBarNav li a {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+ul.siteBarNav li i {
+    color: white;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+div.col-12.text-center.p-3.nothingImgRow img {
+    width: 100%;
+    height: 400px;
+}
+
+
+/*contact page css start form here*/
+
+td.deleteTd {
+    font-size: 18px;
+    color: #ff5e2d;
+    font-weight: bold;
+}
+
+a{
+    cursor: pointer;
+}
+
+.contactModalBody {
+    background: gainsboro;
+    width: 50px;
+    margin: auto;
+    height: 50px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 4px 6px 7px 1px #8d8181;
+}
+
+.contactModalBody h3 {
+    font-size: 40px;
+    font-family: 'FontAwesome';
+    color: #49d128;
+    font-weight: bold;
+    text-shadow: 3px 5px 11px #d7d7d7;
+}
+
+/*contact page css end form here*/
+/*profile page css start form here*/
+.profileImgRow img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+hr.profileHr {
+    width: 99%;
+    border: 1px solid #bbbbbb;
+}
+
+.profilePage {
+    background: #e7e7e7;
+    padding: 10px;
+}
+label{
+    font-weight: bold;
+}
+
+/*profile page css start form here*/
+button.profileBtn {
+    width: 100%;
+    border: 2px solId #d3c8c8;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: auto;
+    margin-top: 5px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px #02023a;
+    color: #00ff2b;
+    background: conic-gradient(#4efd2e,#a4c751,#ffd12a,#a2ffb0,#fffa66,#ffc800,#7bef7b,#e4ffba);
+}
+
+/*admin home css panel start form here*/
+.card-body h4 {
+    font-family: auto;
+    text-align: center;
+    color: #3cb93a;
+    font-weight: bold;
+}
+
+.card-body {
+    background: #fbfbfb;
+}
+div.card{
+    position: relative;
+    animation-name: adminRowaa;
+   animation-duration: 1s;
+    transition: all 0.6s ease-in;
+}
+@keyframes adminRowaa{
+    0%{
+        margin-top: 40px;
+        opacity: 0.2;
+        transition: all 0.6s ease-in;
+    }
+    100%{
+         margin-top: 0px;
+        transition: all 0.6s ease-in;
+    }
+}
+/*admin home css panel end form here*/
+/*social page css start form here*/
+button#socialAddButton {
+    border: 2px solid #fbd3d3;
+    border-radius: 10px;
+    font-size: 21px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #202008;
+    color: #35fd28;
+    background: #6d67a3;
+    transition: all 0.4s ease;
+}
+
+button#socialAddButton:hover {
+    background: #c5b5df;
+    color: #f5d5f1;
+    transition: all 0.4s ease;
+}
+
+.socialAdd {
+    margin-top: 5px;
+    margin-bottom: 9px;
+    padding: 5px 0px;
+}
+a.tda {
+    font-size: 20px;
+    font-family: auto;
+}
+td.editTd {
+    color: #19d31e;
+    font-weight: bold;
+}
+div.socialDeleteId {
+    background: #db6fff;
+    width: 76px;
+    margin: auto;
+    padding: 3px 0px;
+    box-shadow: 4px 2px 17px -1px #babbcd;
+    border-radius: 100%;
+}
+
+h4#socialDeleteText {
+    font-size: 33px;
+    font-family: inherit;
+    color: white;
+    font-style: italic;
+}
+div.socialEditId {
+    background: #db6fff;
+    width: 76px;
+    margin: auto;
+    padding: 3px 0px;
+    box-shadow: 4px 2px 17px -1px #babbcd;
+    border-radius: 100%;
+}
+
+h4#socialEditText {
+    font-size: 33px;
+    font-family: inherit;
+    color: white;
+    font-style: italic;
+}
+
+td i {
+    font-size: 30px;
+    color: #13950b;
+    font-weight: bold;
+    text-shadow: 3px 3px 6px #a39b9b;
+}
+/*social page css end form here*/
+thead {
+    background: #50f53c;
+}
+
+th {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px #5206b7;
+}
+
+/*about page css start form here*/
+td img.abouttdimg{
+    width: 50px;
+    height: 50px;
+}
+
+img#AboutdetailsImg {
+    width: 128px;
+    height: 123px;
+}
+
+.aboutAddPost {
+    padding: 10px;
+}
+
+button.aboutAddPostButton {
+    border-radius: 10px;
+    font-size: 21px;
+    border: 2px solid greenyellow;
+    font-weight: bold;
+    background: ghostwhite;
+    font-family: 'Roboto';
+    color: #a5a5a5;
+}
+
+button.aboutAddPostButton:hover {
+    background: gainsboro;
+    transition: all 0.6s cubic-bezier(0.25, 0.1, 0, 1.14);
+}
+
+i.fas.fa-add {
+    margin-right: 2px;
+    font-weight: bold;
+    color: #a5a5a5;
+}
+
+.aboutShowid {
+    background: #ddd2d2;
+    padding: 0px 12px;
+    border-radius: 100%;
+}
+
+.aboutEditDib.text-center {}
+
+.aboutEditDib.text-center {
+    margin-top: -12px;
+}
+
+h3#aboutId {
+    font-size: 32px;
+    font-family: auto;
+    color: #aeaed3;
+}
+
+img#aboutAddImgPreview {
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+img#aboutDeleteImg {
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+}
+div#aboutDeleteDiv {
+    width: 50px;
+    height: 50px;
+    background: #d5b5d7;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+
+h3.aboutDeleteId {
+    font-family: auto;
+    color: #10ff00;
+    font-weight: bold;
+}
+
+
+/*resume page css start form here*/
+
+button#resumeAddButtonId {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3384d7;
+    border-radius: 10px;
+    border: 2px solid #d9d8d8;
+    background: #a0ff22;
+}
+
+.resumeaddButton {
+    padding: 10px;
+}
+
+button#resumeAddButtonId:hover {
+    background: #f3f3f3;
+    transition: all 0.5s cubic-bezier(0.13, 0.88, 0.41, 1.03);
+    font-size: 25px;
+    border: none;
+}
+.showId {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    background: greenyellow;
+    padding: 0px 14px;
+    border-radius: 100%;
+    box-shadow: 4px 4px 11px 1px #dedbdf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3#resumeId {
+    color: #cdcdcd;
+    font-family: inherit;
+}
+
+/*Blog page css start form here*/
+.blogAdd {
+    padding: 10px;
+}
+
+button#AddBlogId {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f22aff;
+    border: 2px solid #c5dfc5;
+    border-radius: 10px;
+    background: #d9d9d9;
+}
+
+button#AddBlogId:hover {
+    background: ghostwhite;
+    border: none;
+    font-size: 25px;
+    transition: all 1s cubic-bezier(0.26, 0.88, 0.15, 1.26);
+}
+
+img.BlogImg {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+img#blogOldPath{
+    width: 130px;
+    height: 130px;
+    border-radius:10px;
+}
+
+/*potfulio page css start form here*/
+td.potfulio img {
+    width: 100px;
+    height: 100px;
+}
+
+.potfulioAdd {
+    padding: 10px;
+}
+
+button#potfulioAddButton {
+    border: 2px solid #ccd1e1;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #b5b5b5;
+    background: #daff0f;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button#potfulioAddButton:hover {
+    background: greenyellow;
+    color: white;
+    border: none;
+    font-size: 20px;
+    transition: all 1s cubic-bezier(0, 1.06, 0.24, 1.15);
+}
+
+img#potfulioPreviewImg {
+    width: 130px;
+    height: 124px;
+    border-radius: 10px;
+}
+
+.detailsSpenner{
+    color: #5b07ff!important;
+    --mdb-spinner-vertical-align: -12px;
+    --mdb-spinner-width: 3rem;
+    --mdb-spinner-height: 3rem;
+    --mdb-spinner-border-width: 0.2em;
+}
+.detailsLoader {
+    font-size: 39px;
+    color: #10ff00;
+}
+img#potfulioDetailsImg {
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+}
+img#potfulioDeleteImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+div#ShowDiv {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: auto;
+    background: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-header {
+    font-family: auto;
+    color: blue;
+}
+
+
+.spinner-border-sm {
+    --mdb-spinner-width: 19px;
+    --mdb-spinner-height: 19px;
+    --mdb-spinner-border-width: 2px;
+    color: #4b00ff!important;
+    --mdb-spinner-vertical-align: -3px;
+    --mdb-spinner-animation-speed: 0.54s;
+    --mdb-spinner-animation-name: spinner-border;
+    border: var(--mdb-spinner-border-width) solid;
+    border-right-color: #fffffff5;
+}
+
+/*skill page css start form here*/
+.skilladdButtonDiv {
+    padding: 10px;
+}
+
+button#skillButton {
+    border: 2px solid #2961ff1c;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #faffb494;
+    background: #14141426;
+}
+
+button#skillButton:hover {
+    background: #65eb00;
+    font-size: 25px;
+    transition: all 1s ease;
+    border: none;
+}
+/*skill page css end form here*/
